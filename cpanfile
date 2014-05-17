@@ -3,17 +3,16 @@ requires 'Config::PL';
 requires 'Hash::MultiValue';
 requires 'Plack';
 requires 'Plack::Middleware::Session';
+requires 'Plack::Request::WithEncoding';
 requires 'Tiffany';
 requires 'URI::QueryParam';
-requires 'URL::Encode';
 requires 'perl', '5.010';
 
 recommends 'Text::Xslate';
 recommends 'URL::Encode::XS';
 
 # Dispatcher::Lite
-recommends 'Router::Simple', '0.14';
-recommends 'Router::Simple::Sinatraish';
+recommends 'Router::Boom::Method';
 
 # Puncheur::Lite
 recommends 'Data::Section::Simple';

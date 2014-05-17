@@ -35,5 +35,6 @@ lib/Puncheur/Trigger.pm
 t/000_base.t
 t/001_request.t
 t/002_response.t
+t/003_lite.t
 META.yml
 MANIFEST

@@ -3,17 +3,17 @@ abstract: 'a web application framework'
 author:
   - 'Masayuki Matsuki <y.songmu@gmail.com>'
 build_requires:
-  Test::More: 0.98
+  Test::More: '0.98'
 configure_requires:
-  CPAN::Meta: 0
-  CPAN::Meta::Prereqs: 0
-  Module::Build: 0.38
+  CPAN::Meta: '0'
+  CPAN::Meta::Prereqs: '0'
+  Module::Build: '0.38'
 dynamic_config: 0
-generated_by: 'Minilla/v0.5.6, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Minilla/v0.15.2, CPAN::Meta::Converter version 2.141170'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Puncheur
 no_index:
   directory:
@@ -24,64 +24,53 @@ no_index:
     - eg
     - examples
     - author
+    - builder
 provides:
   Puncheur:
     file: lib/Puncheur.pm
-    version: v0.0.3
+    version: v0.1.0
   Puncheur::Dispatcher::Lite:
     file: lib/Puncheur/Dispatcher/Lite.pm
-    version: 0
   Puncheur::Dispatcher::PHPish:
     file: lib/Puncheur/Dispatcher/PHPish.pm
-    version: 0
   Puncheur::Lite:
     file: lib/Puncheur/Lite.pm
-    version: 0
   Puncheur::Plugin::HandleStatic:
     file: lib/Puncheur/Plugin/HandleStatic.pm
-    version: 0
   Puncheur::Plugin::JSON:
     file: lib/Puncheur/Plugin/JSON.pm
-    version: 0
   Puncheur::Plugin::Model:
     file: lib/Puncheur/Plugin/Model.pm
-    version: 0
   Puncheur::Plugin::ShareDir:
     file: lib/Puncheur/Plugin/ShareDir.pm
-    version: 0
   Puncheur::Request:
     file: lib/Puncheur/Request.pm
-    version: 0
   Puncheur::Response:
     file: lib/Puncheur/Response.pm
-    version: 0
   Puncheur::Runner:
     file: lib/Puncheur/Runner.pm
-    version: 0
   Puncheur::Trigger:
     file: lib/Puncheur/Trigger.pm
-    version: 0
 recommends:
-  Data::Section::Simple: 0
-  File::ShareDir: 0
-  JSON: 0
-  MIME::Base64: 0
-  Router::Simple: 0.14
-  Router::Simple::Sinatraish: 0
-  Text::Xslate: 0
-  URL::Encode::XS: 0
+  Data::Section::Simple: '0'
+  File::ShareDir: '0'
+  JSON: '0'
+  MIME::Base64: '0'
+  Router::Boom::Method: '0'
+  Text::Xslate: '0'
+  URL::Encode::XS: '0'
 requires:
-  Clone: 0
-  Config::PL: 0
-  Hash::MultiValue: 0
-  Plack: 0
-  Plack::Middleware::Session: 0
-  Tiffany: 0
-  URI::QueryParam: 0
-  URL::Encode: 0
-  perl: 5.010
+  Clone: '0'
+  Config::PL: '0'
+  Hash::MultiValue: '0'
+  Plack: '0'
+  Plack::Middleware::Session: '0'
+  Plack::Request::WithEncoding: '0'
+  Tiffany: '0'
+  URI::QueryParam: '0'
+  perl: '5.010'
 resources:
   bugtracker: https://github.com/Songmu/Puncheur/issues
   homepage: https://github.com/Songmu/Puncheur
   repository: git://github.com/Songmu/Puncheur.git
-version: 0.0.3
+version: 0.1.0
