@@ -74,7 +74,7 @@
    "provides" : {
       "Puncheur" : {
          "file" : "lib/Puncheur.pm",
-         "version" : "v0.1.2"
+         "version" : "v0.2.0"
       },
       "Puncheur::Dispatcher::Lite" : {
          "file" : "lib/Puncheur/Dispatcher/Lite.pm"
@@ -121,5 +121,5 @@
          "web" : "https://github.com/Songmu/Puncheur"
       }
    },
-   "version" : "0.1.2"
+   "version" : "0.2.0"
 }

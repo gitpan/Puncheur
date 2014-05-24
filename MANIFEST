@@ -36,5 +36,8 @@ t/000_base.t
 t/001_request.t
 t/002_response.t
 t/003_lite.t
+t/004_runner.t
+t/lib/TestPuncheur.pm
+t/lib/TestPuncheur2.pm
 META.yml
 MANIFEST
