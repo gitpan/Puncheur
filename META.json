@@ -4,7 +4,7 @@
       "Masayuki Matsuki <y.songmu@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.15.2",
+   "generated_by" : "Minilla/v2.1.1",
    "license" : [
       "perl_5"
    ],
@@ -74,7 +74,7 @@
    "provides" : {
       "Puncheur" : {
          "file" : "lib/Puncheur.pm",
-         "version" : "v0.2.0"
+         "version" : "v0.3.0"
       },
       "Puncheur::Dispatcher::Lite" : {
          "file" : "lib/Puncheur/Dispatcher/Lite.pm"
@@ -121,5 +121,5 @@
          "web" : "https://github.com/Songmu/Puncheur"
       }
    },
-   "version" : "0.2.0"
+   "version" : "v0.3.0"
 }
